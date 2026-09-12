@@ -1,0 +1,15 @@
+suite,task,condition,method,seed,score,eta,beta,rank
+main,synthetic_2d,concentrated,plain,1,0.8903651237487793,0.1,0.0,4
+main,synthetic_2d,concentrated,plain,2,0.8569903373718262,0.1,0.0,4
+main,synthetic_2d,concentrated,write_diag,1,0.8543874621391296,0.1,1.0,4
+main,synthetic_2d,concentrated,write_diag,2,0.7954885363578796,0.1,1.0,4
+main,synthetic_2d,concentrated,write_trace,1,0.8985190987586975,0.05,10.0,8
+main,synthetic_2d,concentrated,write_trace,2,0.7986197471618652,0.05,10.0,8
+main,synthetic_2d,concentrated,dqd,1,0.8187709450721741,0.05,10.0,8
+main,synthetic_2d,concentrated,dqd,2,0.703498899936676,0.05,10.0,8
+main,synthetic_2d,concentrated,full_query_trace,1,0.7319449186325073,0.1,10.0,4
+main,synthetic_2d,concentrated,full_query_trace,2,0.5945363640785217,0.1,10.0,4
+main,synthetic_2d,concentrated,query_moment_reference,1,0.7199248671531677,0.1,10.0,4
+main,synthetic_2d,concentrated,query_moment_reference,2,0.5467816591262817,0.1,10.0,4
+main,synthetic_2d,concentrated,weighted_linear_reference,1,0.2231833917647564,0.0,0.0,4
+main,synthetic_2d,concentrated,weighted_linear_reference,2,0.14868602207688453,0.0,0.0,4

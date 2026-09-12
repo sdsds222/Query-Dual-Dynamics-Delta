@@ -1,0 +1,32 @@
+{
+  "observed": {
+    "plain": {
+      "eta": 0.1,
+      "beta": 0.0,
+      "rank": 4,
+      "validation_mean": 0.1749323010444641,
+      "grid_size": 2
+    },
+    "write_trace": {
+      "eta": 0.1,
+      "beta": 1.0,
+      "rank": 2,
+      "validation_mean": 0.1635095775127411,
+      "grid_size": 12
+    },
+    "dqd": {
+      "eta": 0.05,
+      "beta": 10.0,
+      "rank": 1,
+      "validation_mean": 0.15865856409072876,
+      "grid_size": 12
+    },
+    "full_query_trace": {
+      "eta": 0.05,
+      "beta": 10.0,
+      "rank": 4,
+      "validation_mean": 0.16018618643283844,
+      "grid_size": 4
+    }
+  }
+}

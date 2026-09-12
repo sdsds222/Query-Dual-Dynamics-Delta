@@ -1,0 +1,62 @@
+{
+  "observed": {
+    "plain": {
+      "eta": 0.1,
+      "beta": 0.0,
+      "rank": 4,
+      "validation_mean": 0.16626299731433392,
+      "grid_size": 3
+    },
+    "write_trace": {
+      "eta": 0.05,
+      "beta": 3.0,
+      "rank": 2,
+      "validation_mean": 0.1650565154850483,
+      "grid_size": 36
+    },
+    "dqd": {
+      "eta": 0.02,
+      "beta": 10.0,
+      "rank": 1,
+      "validation_mean": 0.16243948228657246,
+      "grid_size": 36
+    },
+    "full_query_trace": {
+      "eta": 0.02,
+      "beta": 10.0,
+      "rank": 4,
+      "validation_mean": 0.1626633834093809,
+      "grid_size": 12
+    }
+  },
+  "uniform": {
+    "plain": {
+      "eta": 0.1,
+      "beta": 0.0,
+      "rank": 4,
+      "validation_mean": 0.16398698277771473,
+      "grid_size": 3
+    },
+    "write_trace": {
+      "eta": 0.1,
+      "beta": 1.0,
+      "rank": 2,
+      "validation_mean": 0.16171029210090637,
+      "grid_size": 36
+    },
+    "dqd": {
+      "eta": 0.1,
+      "beta": 1.0,
+      "rank": 2,
+      "validation_mean": 0.16170892864465714,
+      "grid_size": 36
+    },
+    "full_query_trace": {
+      "eta": 0.1,
+      "beta": 1.0,
+      "rank": 4,
+      "validation_mean": 0.1617891639471054,
+      "grid_size": 12
+    }
+  }
+}

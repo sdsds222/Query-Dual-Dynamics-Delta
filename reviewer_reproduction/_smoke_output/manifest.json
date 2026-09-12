@@ -1,0 +1,45 @@
+{
+  "status": "complete",
+  "created_utc": "2026-09-12T09:25:29.326099+00:00",
+  "suite": "main",
+  "quick": true,
+  "command": "run_dqd_experiments.py --suite main --datasets synthetic --conditions concentrated --device cpu --quick --output _smoke_output",
+  "python": "3.10.20 | packaged by Anaconda, Inc. | (main, Jun 11 2026, 15:13:20) [MSC v.1942 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "numpy": "2.0.1",
+  "torch": "2.5.1",
+  "device": "cpu",
+  "val_seeds": [
+    101
+  ],
+  "test_seeds": [
+    1,
+    2
+  ],
+  "etas": [
+    0.05,
+    0.1
+  ],
+  "betas": [
+    1.0,
+    10.0
+  ],
+  "query_every": 3,
+  "eta_u": 0.05,
+  "lam": 0.999,
+  "clip": 1.9,
+  "stream_length": 256,
+  "test_size": 300,
+  "reference_size": 500,
+  "files": {
+    "dqd_core.py": "b7c0ec9d8c091ed7d0e4a6e01760bc22c1289c6f65ef7255ed776749b19a25d0",
+    "run_dqd_experiments.py": "da63fab5732679d1a2614ede469280115dd78647a4029a915435a7d9b7e2c54f",
+    "word.npz": "dcf83077a7abd574b4c7b0cb88821f282fe16065d873517a1e1b920ed33a4186",
+    "module.npz": "c1d5681f16ea7b64be59c0e6ffef406dfb85c9e259fdcee7d98df376f026d8f8"
+  },
+  "datasets": {},
+  "completed_utc": "2026-09-12T09:25:30.597196+00:00",
+  "conditions_filter": [
+    "concentrated"
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "status": "complete",
+  "created_utc": "2026-09-12T07:42:31.405996+00:00",
+  "command": "run_wikitext2_ordered.py --device cuda --val-seeds 8 --test-seeds 16 --output results/wikitext2_ordered_v1",
+  "quick": false,
+  "python": "3.10.20 | packaged by Anaconda, Inc. | (main, Jun 11 2026, 15:13:20) [MSC v.1942 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "numpy": "2.0.1",
+  "device": "cuda",
+  "data": "C:\\Users\\13633\\Desktop\\BRC-FWP_LaTeX_Draft_v0.1\\BRC-FWP-paper\\BCDelta\\qtfw\\wikitext2_ordered_qd3.npz",
+  "data_sha256": "40dc67b2e47e4e9349b2891f2c6124d050ce64515661f2b0b3f659689a0971d3",
+  "source_hashes": {
+    "dqd_core.py": "87884dc009fd104ad1893d9de48231fcf73caa9b1b817e22d9779e8d7e083385",
+    "run_wikitext2_ordered.py": "2a6d16e9454ae3177d7c067c2abd8ff87ad61eed5c73e756dc5afc914e42cc15",
+    "prepare_wikitext2_ordered.py": "8300956255c4c48bc5ece13afc023b29c80aedf7252657589211195f41ed6118"
+  },
+  "shape": {
+    "keys": [
+      3000,
+      256
+    ],
+    "values": [
+      3000,
+      64
+    ]
+  },
+  "conditions": [
+    "ordered",
+    "shuffled"
+  ],
+  "val_seeds": [
+    4001,
+    4002,
+    4003,
+    4004,
+    4005,
+    4006,
+    4007,
+    4008
+  ],
+  "test_seeds": [
+    30001,
+    30002,
+    30003,
+    30004,
+    30005,
+    30006,
+    30007,
+    30008,
+    30009,
+    30010,
+    30011,
+    30012,
+    30013,
+    30014,
+    30015,
+    30016
+  ],
+  "etas": [
+    0.02,
+    0.05,
+    0.1
+  ],
+  "betas": [
+    1.0,
+    3.0,
+    10.0,
+    30.0
+  ],
+  "passes": 2,
+  "query_every": 3,
+  "test_size": 3000,
+  "eta_u": 0.05,
+  "lam": 0.999,
+  "clip": 1.9,
+  "torch": "2.5.1",
+  "gpu": "NVIDIA GeForce RTX 3070 Ti Laptop GPU",
+  "completed_utc": "2026-09-12T07:50:55.032644+00:00"
+}

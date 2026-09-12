@@ -1,0 +1,356 @@
+{
+  "synthetic_2d": {
+    "concentrated": {
+      "plain": {
+        "mode": "plain",
+        "eta": 0.1,
+        "beta": 0.0,
+        "rank": 4,
+        "validation_mean": 0.7019764482975006,
+        "grid_size": 5
+      },
+      "write_diag": {
+        "mode": "write_diag",
+        "eta": 0.05,
+        "beta": 1.0,
+        "rank": 4,
+        "validation_mean": 0.7024991735816002,
+        "grid_size": 25
+      },
+      "write_trace": {
+        "mode": "write_trace",
+        "eta": 0.1,
+        "beta": 1.0,
+        "rank": 8,
+        "validation_mean": 0.701752781867981,
+        "grid_size": 75
+      },
+      "dqd": {
+        "mode": "dqd",
+        "eta": 0.02,
+        "beta": 30.0,
+        "rank": 8,
+        "validation_mean": 0.47688013315200806,
+        "grid_size": 75
+      },
+      "full_query_trace": {
+        "mode": "full_query_trace",
+        "eta": 0.02,
+        "beta": 30.0,
+        "rank": 4,
+        "validation_mean": 0.4732132963836193,
+        "grid_size": 25
+      },
+      "query_moment_reference": {
+        "mode": "query_moment_reference",
+        "eta": 0.02,
+        "beta": 30.0,
+        "rank": 4,
+        "validation_mean": 0.47166701033711433,
+        "grid_size": 25
+      },
+      "weighted_linear_reference": {
+        "mode": "weighted_linear_reference",
+        "eta": 0.0,
+        "beta": 0.0,
+        "rank": 4,
+        "validation_mean": 0.09885914959412567,
+        "grid_size": 1
+      }
+    },
+    "uniform": {
+      "plain": {
+        "mode": "plain",
+        "eta": 0.1,
+        "beta": 0.0,
+        "rank": 4,
+        "validation_mean": 0.7210405021905899,
+        "grid_size": 5
+      },
+      "write_diag": {
+        "mode": "write_diag",
+        "eta": 0.05,
+        "beta": 1.0,
+        "rank": 4,
+        "validation_mean": 0.7212106436491013,
+        "grid_size": 25
+      },
+      "write_trace": {
+        "mode": "write_trace",
+        "eta": 0.1,
+        "beta": 1.0,
+        "rank": 2,
+        "validation_mean": 0.7235137522220612,
+        "grid_size": 75
+      },
+      "dqd": {
+        "mode": "dqd",
+        "eta": 0.1,
+        "beta": 1.0,
+        "rank": 2,
+        "validation_mean": 0.7232387438416481,
+        "grid_size": 75
+      },
+      "full_query_trace": {
+        "mode": "full_query_trace",
+        "eta": 0.05,
+        "beta": 1.0,
+        "rank": 4,
+        "validation_mean": 0.7224830687046051,
+        "grid_size": 25
+      },
+      "query_moment_reference": {
+        "mode": "query_moment_reference",
+        "eta": 0.05,
+        "beta": 1.0,
+        "rank": 4,
+        "validation_mean": 0.7211870923638344,
+        "grid_size": 25
+      },
+      "weighted_linear_reference": {
+        "mode": "weighted_linear_reference",
+        "eta": 0.0,
+        "beta": 0.0,
+        "rank": 4,
+        "validation_mean": 0.6905614018268176,
+        "grid_size": 1
+      }
+    }
+  },
+  "word": {
+    "observed": {
+      "plain": {
+        "mode": "plain",
+        "eta": 0.05,
+        "beta": 0.0,
+        "rank": 4,
+        "validation_mean": 0.7846327498555183,
+        "grid_size": 5
+      },
+      "write_diag": {
+        "mode": "write_diag",
+        "eta": 0.02,
+        "beta": 10.0,
+        "rank": 4,
+        "validation_mean": 0.6659137159585953,
+        "grid_size": 25
+      },
+      "write_trace": {
+        "mode": "write_trace",
+        "eta": 0.02,
+        "beta": 10.0,
+        "rank": 4,
+        "validation_mean": 0.6503516435623169,
+        "grid_size": 75
+      },
+      "dqd": {
+        "mode": "dqd",
+        "eta": 0.02,
+        "beta": 10.0,
+        "rank": 4,
+        "validation_mean": 0.6300370618700981,
+        "grid_size": 75
+      },
+      "full_query_trace": {
+        "mode": "full_query_trace",
+        "eta": 0.02,
+        "beta": 10.0,
+        "rank": 4,
+        "validation_mean": 0.6191745921969414,
+        "grid_size": 25
+      },
+      "query_moment_reference": {
+        "mode": "query_moment_reference",
+        "eta": 0.02,
+        "beta": 10.0,
+        "rank": 4,
+        "validation_mean": 0.6190767213702202,
+        "grid_size": 25
+      },
+      "weighted_linear_reference": {
+        "mode": "weighted_linear_reference",
+        "eta": 0.0,
+        "beta": 0.0,
+        "rank": 4,
+        "validation_mean": 0.5394168951957,
+        "grid_size": 1
+      }
+    },
+    "uniform": {
+      "plain": {
+        "mode": "plain",
+        "eta": 0.05,
+        "beta": 0.0,
+        "rank": 4,
+        "validation_mean": 0.8007296621799469,
+        "grid_size": 5
+      },
+      "write_diag": {
+        "mode": "write_diag",
+        "eta": 0.05,
+        "beta": 1.0,
+        "rank": 4,
+        "validation_mean": 0.8032044693827629,
+        "grid_size": 25
+      },
+      "write_trace": {
+        "mode": "write_trace",
+        "eta": 0.05,
+        "beta": 1.0,
+        "rank": 2,
+        "validation_mean": 0.8038886785507202,
+        "grid_size": 75
+      },
+      "dqd": {
+        "mode": "dqd",
+        "eta": 0.05,
+        "beta": 1.0,
+        "rank": 8,
+        "validation_mean": 0.8039763644337654,
+        "grid_size": 75
+      },
+      "full_query_trace": {
+        "mode": "full_query_trace",
+        "eta": 0.05,
+        "beta": 1.0,
+        "rank": 4,
+        "validation_mean": 0.8038574159145355,
+        "grid_size": 25
+      },
+      "query_moment_reference": {
+        "mode": "query_moment_reference",
+        "eta": 0.05,
+        "beta": 1.0,
+        "rank": 4,
+        "validation_mean": 0.803778737783432,
+        "grid_size": 25
+      },
+      "weighted_linear_reference": {
+        "mode": "weighted_linear_reference",
+        "eta": 0.0,
+        "beta": 0.0,
+        "rank": 4,
+        "validation_mean": 0.7968193396955614,
+        "grid_size": 1
+      }
+    }
+  },
+  "module": {
+    "observed": {
+      "plain": {
+        "mode": "plain",
+        "eta": 0.02,
+        "beta": 0.0,
+        "rank": 4,
+        "validation_mean": 0.8902785927057266,
+        "grid_size": 5
+      },
+      "write_diag": {
+        "mode": "write_diag",
+        "eta": 0.02,
+        "beta": 10.0,
+        "rank": 4,
+        "validation_mean": 0.7499162331223488,
+        "grid_size": 25
+      },
+      "write_trace": {
+        "mode": "write_trace",
+        "eta": 0.02,
+        "beta": 10.0,
+        "rank": 2,
+        "validation_mean": 0.6487743556499481,
+        "grid_size": 75
+      },
+      "dqd": {
+        "mode": "dqd",
+        "eta": 0.02,
+        "beta": 10.0,
+        "rank": 2,
+        "validation_mean": 0.6104776263237,
+        "grid_size": 75
+      },
+      "full_query_trace": {
+        "mode": "full_query_trace",
+        "eta": 0.02,
+        "beta": 10.0,
+        "rank": 4,
+        "validation_mean": 0.6140572279691696,
+        "grid_size": 25
+      },
+      "query_moment_reference": {
+        "mode": "query_moment_reference",
+        "eta": 0.02,
+        "beta": 10.0,
+        "rank": 4,
+        "validation_mean": 0.61441320925951,
+        "grid_size": 25
+      },
+      "weighted_linear_reference": {
+        "mode": "weighted_linear_reference",
+        "eta": 0.0,
+        "beta": 0.0,
+        "rank": 4,
+        "validation_mean": 0.45527621819954706,
+        "grid_size": 1
+      }
+    },
+    "uniform": {
+      "plain": {
+        "mode": "plain",
+        "eta": 0.05,
+        "beta": 0.0,
+        "rank": 4,
+        "validation_mean": 0.7308753803372383,
+        "grid_size": 5
+      },
+      "write_diag": {
+        "mode": "write_diag",
+        "eta": 0.02,
+        "beta": 1.0,
+        "rank": 4,
+        "validation_mean": 0.7326726615428925,
+        "grid_size": 25
+      },
+      "write_trace": {
+        "mode": "write_trace",
+        "eta": 0.02,
+        "beta": 1.0,
+        "rank": 8,
+        "validation_mean": 0.73366729170084,
+        "grid_size": 75
+      },
+      "dqd": {
+        "mode": "dqd",
+        "eta": 0.02,
+        "beta": 1.0,
+        "rank": 8,
+        "validation_mean": 0.7337294965982437,
+        "grid_size": 75
+      },
+      "full_query_trace": {
+        "mode": "full_query_trace",
+        "eta": 0.02,
+        "beta": 1.0,
+        "rank": 4,
+        "validation_mean": 0.7330720722675323,
+        "grid_size": 25
+      },
+      "query_moment_reference": {
+        "mode": "query_moment_reference",
+        "eta": 0.02,
+        "beta": 1.0,
+        "rank": 4,
+        "validation_mean": 0.7330207675695419,
+        "grid_size": 25
+      },
+      "weighted_linear_reference": {
+        "mode": "weighted_linear_reference",
+        "eta": 0.0,
+        "beta": 0.0,
+        "rank": 4,
+        "validation_mean": 0.7288479213441902,
+        "grid_size": 1
+      }
+    }
+  }
+}

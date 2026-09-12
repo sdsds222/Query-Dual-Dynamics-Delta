@@ -1,0 +1,62 @@
+{
+  "synthetic_2d": {
+    "concentrated": {
+      "plain": {
+        "mode": "plain",
+        "eta": 0.1,
+        "beta": 0.0,
+        "rank": 4,
+        "validation_mean": 0.8008366823196411,
+        "grid_size": 2
+      },
+      "write_diag": {
+        "mode": "write_diag",
+        "eta": 0.1,
+        "beta": 1.0,
+        "rank": 4,
+        "validation_mean": 0.7450965046882629,
+        "grid_size": 4
+      },
+      "write_trace": {
+        "mode": "write_trace",
+        "eta": 0.05,
+        "beta": 10.0,
+        "rank": 8,
+        "validation_mean": 0.7113867998123169,
+        "grid_size": 12
+      },
+      "dqd": {
+        "mode": "dqd",
+        "eta": 0.05,
+        "beta": 10.0,
+        "rank": 8,
+        "validation_mean": 0.6502568125724792,
+        "grid_size": 12
+      },
+      "full_query_trace": {
+        "mode": "full_query_trace",
+        "eta": 0.1,
+        "beta": 10.0,
+        "rank": 4,
+        "validation_mean": 0.6056923866271973,
+        "grid_size": 4
+      },
+      "query_moment_reference": {
+        "mode": "query_moment_reference",
+        "eta": 0.1,
+        "beta": 10.0,
+        "rank": 4,
+        "validation_mean": 0.5896182060241699,
+        "grid_size": 4
+      },
+      "weighted_linear_reference": {
+        "mode": "weighted_linear_reference",
+        "eta": 0.0,
+        "beta": 0.0,
+        "rank": 4,
+        "validation_mean": 0.1847486337638808,
+        "grid_size": 1
+      }
+    }
+  }
+}

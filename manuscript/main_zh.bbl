@@ -1,0 +1,118 @@
+\begin{thebibliography}{10}
+
+\bibitem{widrow1960}
+Bernard Widrow and Jr. Marcian E.~Hoff.
+\newblock Adaptive switching circuits.
+\newblock In {\em IRE WESCON Convention Record}, volume~4, pages 96--104, 1960.
+
+\bibitem{schlag2021}
+Imanol Schlag, Kazuki Irie, and J{\"u}rgen Schmidhuber.
+\newblock Linear transformers are secretly fast weight programmers.
+\newblock In {\em Proceedings of the 38th International Conference on Machine
+  Learning}, volume 139 of {\em Proceedings of Machine Learning Research},
+  pages 9355--9366, 2021.
+
+\bibitem{merity2016wikitext}
+Stephen Merity, Caiming Xiong, James Bradbury, and Richard Socher.
+\newblock Pointer sentinel mixture models.
+\newblock {\em arXiv preprint arXiv:1609.07843}, 2016.
+
+\bibitem{schmidhuber1992}
+J{\"u}rgen Schmidhuber.
+\newblock Learning to control fast-weight memories: An alternative to dynamic
+  recurrent networks.
+\newblock {\em Neural Computation}, 4(1):131--139, 1992.
+
+\bibitem{ba2016}
+Jimmy Ba, Geoffrey Hinton, Volodymyr Mnih, Joel~Z. Leibo, and Catalin Ionescu.
+\newblock Using fast weights to attend to the recent past.
+\newblock {\em arXiv preprint arXiv:1610.06258}, 2016.
+
+\bibitem{katharopoulos2020}
+Angelos Katharopoulos, Apoorv Vyas, Nikolaos Pappas, and Fran{\c{c}}ois
+  Fleuret.
+\newblock Transformers are {RNN}s: Fast autoregressive transformers with linear
+  attention.
+\newblock In {\em Proceedings of the 37th International Conference on Machine
+  Learning}, volume 119 of {\em Proceedings of Machine Learning Research},
+  pages 5156--5165, 2020.
+
+\bibitem{yang2024parallel}
+Songlin Yang, Bailin Wang, Yu~Zhang, Yikang Shen, and Yoon Kim.
+\newblock Parallelizing linear transformers with the delta rule over sequence
+  length.
+\newblock In {\em Advances in Neural Information Processing Systems},
+  volume~37, 2024.
+
+\bibitem{yang2025gated}
+Songlin Yang, Jan Kautz, and Ali Hatamizadeh.
+\newblock Gated delta networks: Improving {Mamba2} with delta rule.
+\newblock In {\em International Conference on Learning Representations}, 2025.
+
+\bibitem{hatamizadeh2026gdn2}
+Ali Hatamizadeh, Yejin Choi, and Jan Kautz.
+\newblock {Gated DeltaNet-2}: Decoupling erase and write in linear attention.
+\newblock {\em arXiv preprint arXiv:2605.22791}, 2026.
+
+\bibitem{siems2025deltaproduct}
+Julien Siems, Timur Carstensen, Arber Zela, Frank Hutter, Massimiliano Pontil,
+  and Riccardo Grazzi.
+\newblock {DeltaProduct}: Increasing the expressivity of {DeltaNet} through
+  products of householders.
+\newblock {\em arXiv preprint arXiv:2502.10297}, 2025.
+
+\bibitem{park2026qdelta}
+Sumin Park, Seojin Kim, and Noseong Park.
+\newblock {Q-Delta}: Beyond key-value associative state evolution.
+\newblock {\em arXiv preprint arXiv:2606.08804}, 2026.
+
+\bibitem{gupta2026qed}
+Dhruman Gupta, Aritra Das, and Debayan Gupta.
+\newblock The query knows what to forget: A second erase direction for linear
+  attention.
+\newblock {\em arXiv preprint arXiv:2608.13668}, 2026.
+
+\bibitem{zhang2023h2o}
+Zhenyu Zhang, Ying Sheng, Tianyi Zhou, Tianlong Chen, Lianmin Zheng, Ruisi Cai,
+  Zhao Song, Yuandong Tian, Christopher R{\'e}, Clark Barrett, Zhangyang Wang,
+  and Beidi Chen.
+\newblock {$H_2O$}: Heavy-hitter oracle for efficient generative inference of
+  large language models.
+\newblock {\em arXiv preprint arXiv:2306.14048}, 2023.
+
+\bibitem{li2024snapkv}
+Yuhong Li, Yingbing Huang, Bowen Yang, Bharat Venkitesh, Acyr Locatelli,
+  Hanchen Ye, Tianle Cai, Patrick Lewis, and Deming Chen.
+\newblock {SnapKV}: {LLM} knows what you are looking for before generation.
+\newblock In {\em Advances in Neural Information Processing Systems},
+  volume~37, 2024.
+
+\bibitem{oja1982}
+Erkki Oja.
+\newblock Simplified neuron model as a principal component analyzer.
+\newblock {\em Journal of Mathematical Biology}, 15:267--273, 1982.
+
+\bibitem{huang2021oja}
+De~Huang, Jonathan Niles-Weed, and Rachel Ward.
+\newblock Streaming $k$-{PCA}: Efficient guarantees for {Oja}'s algorithm,
+  beyond rank-one updates.
+\newblock In {\em Proceedings of Thirty Fourth Conference on Learning Theory},
+  volume 134 of {\em Proceedings of Machine Learning Research}, pages
+  2463--2498, 2021.
+
+\bibitem{zhu2025ojakv}
+Yuxuan Zhu, David~H. Yang, Mohammad~Mohammadi Amiri, Keerthiram Murugesan,
+  Tejaswini Pedapati, and Pin-Yu Chen.
+\newblock {OjaKV}: Context-aware online low-rank {KV} cache compression with
+  {Oja}'s rule.
+\newblock {\em arXiv preprint arXiv:2509.21623}, 2025.
+
+\bibitem{sugiyama2007}
+Masashi Sugiyama, Shinichi Nakajima, Hisashi Kashima, Paul~V. Buenau, and
+  Motoaki Kawanabe.
+\newblock Direct importance estimation with model selection and its application
+  to covariate shift adaptation.
+\newblock In {\em Advances in Neural Information Processing Systems},
+  volume~20, 2007.
+
+\end{thebibliography}

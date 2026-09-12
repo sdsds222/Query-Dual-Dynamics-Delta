@@ -1,0 +1,174 @@
+{
+  "word": {
+    "alpha_0.25": {
+      "plain": {
+        "mode": "plain",
+        "eta": 0.05,
+        "beta": 0.0,
+        "rank": 4,
+        "validation_mean": 0.7894186973571777,
+        "grid_size": 5
+      },
+      "write_trace": {
+        "mode": "write_trace",
+        "eta": 0.02,
+        "beta": 3.0,
+        "rank": 8,
+        "validation_mean": 0.78143160790205,
+        "grid_size": 75
+      },
+      "dqd": {
+        "mode": "dqd",
+        "eta": 0.02,
+        "beta": 3.0,
+        "rank": 8,
+        "validation_mean": 0.781283974647522,
+        "grid_size": 75
+      },
+      "full_query_trace": {
+        "mode": "full_query_trace",
+        "eta": 0.02,
+        "beta": 3.0,
+        "rank": 4,
+        "validation_mean": 0.7796945199370384,
+        "grid_size": 25
+      }
+    },
+    "alpha_0.50": {
+      "plain": {
+        "mode": "plain",
+        "eta": 0.05,
+        "beta": 0.0,
+        "rank": 4,
+        "validation_mean": 0.7816915735602379,
+        "grid_size": 5
+      },
+      "write_trace": {
+        "mode": "write_trace",
+        "eta": 0.02,
+        "beta": 3.0,
+        "rank": 4,
+        "validation_mean": 0.7498293817043304,
+        "grid_size": 75
+      },
+      "dqd": {
+        "mode": "dqd",
+        "eta": 0.02,
+        "beta": 10.0,
+        "rank": 8,
+        "validation_mean": 0.7457673475146294,
+        "grid_size": 75
+      },
+      "full_query_trace": {
+        "mode": "full_query_trace",
+        "eta": 0.02,
+        "beta": 10.0,
+        "rank": 4,
+        "validation_mean": 0.7402098327875137,
+        "grid_size": 25
+      }
+    },
+    "alpha_0.75": {
+      "plain": {
+        "mode": "plain",
+        "eta": 0.05,
+        "beta": 0.0,
+        "rank": 4,
+        "validation_mean": 0.7773480042815208,
+        "grid_size": 5
+      },
+      "write_trace": {
+        "mode": "write_trace",
+        "eta": 0.02,
+        "beta": 10.0,
+        "rank": 4,
+        "validation_mean": 0.7026427686214447,
+        "grid_size": 75
+      },
+      "dqd": {
+        "mode": "dqd",
+        "eta": 0.02,
+        "beta": 10.0,
+        "rank": 4,
+        "validation_mean": 0.689382754266262,
+        "grid_size": 75
+      },
+      "full_query_trace": {
+        "mode": "full_query_trace",
+        "eta": 0.02,
+        "beta": 10.0,
+        "rank": 4,
+        "validation_mean": 0.6816720142960548,
+        "grid_size": 25
+      }
+    },
+    "alpha_1.00": {
+      "plain": {
+        "mode": "plain",
+        "eta": 0.05,
+        "beta": 0.0,
+        "rank": 4,
+        "validation_mean": 0.7846327498555183,
+        "grid_size": 5
+      },
+      "write_trace": {
+        "mode": "write_trace",
+        "eta": 0.02,
+        "beta": 10.0,
+        "rank": 4,
+        "validation_mean": 0.6503516435623169,
+        "grid_size": 75
+      },
+      "dqd": {
+        "mode": "dqd",
+        "eta": 0.02,
+        "beta": 10.0,
+        "rank": 4,
+        "validation_mean": 0.6300370618700981,
+        "grid_size": 75
+      },
+      "full_query_trace": {
+        "mode": "full_query_trace",
+        "eta": 0.02,
+        "beta": 10.0,
+        "rank": 4,
+        "validation_mean": 0.6191745921969414,
+        "grid_size": 25
+      }
+    },
+    "alpha_1.25": {
+      "plain": {
+        "mode": "plain",
+        "eta": 0.05,
+        "beta": 0.0,
+        "rank": 4,
+        "validation_mean": 0.8035591021180153,
+        "grid_size": 5
+      },
+      "write_trace": {
+        "mode": "write_trace",
+        "eta": 0.02,
+        "beta": 10.0,
+        "rank": 2,
+        "validation_mean": 0.6085233613848686,
+        "grid_size": 75
+      },
+      "dqd": {
+        "mode": "dqd",
+        "eta": 0.02,
+        "beta": 10.0,
+        "rank": 4,
+        "validation_mean": 0.5835077464580536,
+        "grid_size": 75
+      },
+      "full_query_trace": {
+        "mode": "full_query_trace",
+        "eta": 0.02,
+        "beta": 30.0,
+        "rank": 4,
+        "validation_mean": 0.5677978694438934,
+        "grid_size": 25
+      }
+    }
+  }
+}

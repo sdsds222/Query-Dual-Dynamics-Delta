@@ -1,0 +1,105 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand*\HyPL@Entry[1]{}
+\citation{widrow1960,schlag2021}
+\citation{merity2016wikitext}
+\HyPL@Entry{0<</S/D>>}
+\@writefile{toc}{\contentsline {section}{\numberline {1}引言}{1}{section.1}\protected@file@percent }
+\newlabel{sec:intro-zh}{{1}{1}{引言}{section.1}{}}
+\citation{schmidhuber1992,ba2016}
+\citation{katharopoulos2020}
+\citation{schlag2021}
+\citation{yang2024parallel}
+\citation{yang2025gated}
+\citation{hatamizadeh2026gdn2}
+\citation{siems2025deltaproduct}
+\citation{park2026qdelta}
+\citation{gupta2026qed}
+\citation{zhang2023h2o}
+\citation{li2024snapkv}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces \ensuremath {\mathrm  {QD}^{3}}\ 与主要记忆管理机制的关系。“当前”表示当前序列位置的信息，“历史”表示单独累积的统计量。引文和更详细的区别见本节正文。}}{2}{table.1}\protected@file@percent }
+\newlabel{tab:related-zh}{{1}{2}{\QDDD \ 与主要记忆管理机制的关系。“当前”表示当前序列位置的信息，“历史”表示单独累积的统计量。引文和更详细的区别见本节正文。}{table.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}相关工作}{2}{section.2}\protected@file@percent }
+\newlabel{sec:related-zh}{{2}{2}{相关工作}{section.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}快速权重与基于 Delta 的线性注意力}{2}{subsection.2.1}\protected@file@percent }
+\citation{oja1982}
+\citation{huang2021oja}
+\citation{zhu2025ojakv}
+\citation{sugiyama2007}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}访问感知保留与在线子空间}{3}{subsection.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}问题定义}{3}{section.3}\protected@file@percent }
+\newlabel{sec:problem-zh}{{3}{3}{问题定义}{section.3}{}}
+\newlabel{eq:read-zh}{{1}{3}{问题定义}{equation.1}{}}
+\newlabel{eq:residual-zh}{{2}{3}{问题定义}{equation.2}{}}
+\newlabel{eq:plain-delta-zh}{{3}{3}{问题定义}{equation.3}{}}
+\newlabel{eq:query-risk-zh}{{4}{3}{问题定义}{equation.4}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}查询双动态 Delta}{3}{section.4}\protected@file@percent }
+\newlabel{sec:method-zh}{{4}{3}{查询双动态 Delta}{section.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}完整查询热度}{3}{subsection.4.1}\protected@file@percent }
+\newlabel{eq:full-trace-zh}{{5}{3}{完整查询热度}{equation.5}{}}
+\newlabel{eq:heat-identity-zh}{{6}{4}{完整查询热度}{equation.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}低秩查询动态}{4}{subsection.4.2}\protected@file@percent }
+\newlabel{eq:projection-zh}{{7}{4}{低秩查询动态}{equation.7}{}}
+\newlabel{eq:oja-zh}{{8}{4}{低秩查询动态}{equation.8}{}}
+\newlabel{eq:energy-zh}{{9}{4}{低秩查询动态}{equation.9}{}}
+\newlabel{eq:lowrank-heat-zh}{{10}{4}{低秩查询动态}{equation.10}{}}
+\newlabel{eq:normalization-zh}{{11}{4}{低秩查询动态}{equation.11}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}读取驱动速率与记忆更新}{4}{subsection.4.3}\protected@file@percent }
+\newlabel{eq:rate-zh}{{12}{4}{读取驱动速率与记忆更新}{equation.12}{}}
+\newlabel{eq:qddd-zh}{{13}{4}{读取驱动速率与记忆更新}{equation.13}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces 查询双动态 Delta。一次查询会更新低秩工作负载状态，并由固定容量的值记忆回答。之后到达的写入会与累积查询方向进行比较，归一化热度据此调节普通残差 Delta 修正。两个状态由不同事件更新，只通过标量热度交换信息。令 $\beta =0$ 即可精确恢复普通 Delta。}}{5}{figure.1}\protected@file@percent }
+\newlabel{fig:architecture-zh}{{1}{5}{查询双动态 Delta。一次查询会更新低秩工作负载状态，并由固定容量的值记忆回答。之后到达的写入会与累积查询方向进行比较，归一化热度据此调节普通残差 Delta 修正。两个状态由不同事件更新，只通过标量热度交换信息。令 $\beta =0$ 即可精确恢复普通 Delta。}{figure.1}{}}
+\newlabel{prop:stable-zh}{{1}{5}{写入地址处的非扩张性}{proposition.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}状态量与计算开销}{5}{subsection.4.4}\protected@file@percent }
+\citation{merity2016wikitext}
+\@writefile{toc}{\contentsline {section}{\numberline {5}实验设计}{6}{section.5}\protected@file@percent }
+\newlabel{sec:experiments-zh}{{5}{6}{实验设计}{section.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}任务与评估指标}{6}{subsection.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.1}合成空间场}{6}{subsubsection.5.1.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.2}由真实数据构造的受控工作负载}{6}{subsubsection.5.1.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.3}WikiText-2 留出词元序列}{6}{subsubsection.5.1.3}\protected@file@percent }
+\newlabel{eq:nrmse-zh}{{16}{6}{WikiText-2 留出词元序列}{equation.16}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}基线与对照}{6}{subsection.5.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}选择、配对与实现检查}{7}{subsection.5.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6}实验结果}{7}{section.6}\protected@file@percent }
+\newlabel{sec:results-zh}{{6}{7}{实验结果}{section.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}集中工作负载与留出序列}{7}{subsection.6.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces 非均匀工作负载上的盲测 NRMSE。数值为 16 个配对种子的均值（样本标准差）。增益表示 \ensuremath {\mathrm  {QD}^{3}}\ 相对普通 Delta 的误差降幅。\ensuremath {\mathrm  {QD}^{3}}\ 与写入轨迹的配对置信区间见正文。}}{8}{table.2}\protected@file@percent }
+\newlabel{tab:main-zh}{{2}{8}{非均匀工作负载上的盲测 NRMSE。数值为 16 个配对种子的均值（样本标准差）。增益表示 \QDDD \ 相对普通 Delta 的误差降幅。\QDDD \ 与写入轨迹的配对置信区间见正文。}{table.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces 相对普通 Delta 的盲测 NRMSE 降幅，显示 16 个种子的均值和配对 95\% 置信区间，每个子图使用各自标注的纵轴尺度。在受控空间场上，查询轨迹改善集中查询条件下的回忆，而匹配的写入轨迹无改善；查询变为均匀后，两者差异消失。在 WikiText-2 上，连续留出查询使 \ensuremath {\mathrm  {QD}^{3}}\ 获得 2.62\% 的降幅；均匀查询下，\ensuremath {\mathrm  {QD}^{3}}\ 与写入轨迹几乎相同。NRMSE 越低越好。}}{8}{figure.2}\protected@file@percent }
+\newlabel{fig:main-results-zh}{{2}{8}{相对普通 Delta 的盲测 NRMSE 降幅，显示 16 个种子的均值和配对 95\% 置信区间，每个子图使用各自标注的纵轴尺度。在受控空间场上，查询轨迹改善集中查询条件下的回忆，而匹配的写入轨迹无改善；查询变为均匀后，两者差异消失。在 WikiText-2 上，连续留出查询使 \QDDD \ 获得 2.62\% 的降幅；均匀查询下，\QDDD \ 与写入轨迹几乎相同。NRMSE 越低越好。}{figure.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}收益来源}{8}{subsection.6.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces 盲测种子上的机制检验。(a) 随着查询频率指数增大，\ensuremath {\mathrm  {QD}^{3}}\ 相对估计器与容量匹配的写入轨迹获得更多 NRMSE 降幅；均匀查询时该优势接近零。(b) 小型自适应查询子空间可以恢复完整在线二阶矩的结果；最佳秩取决于任务，并且只使用验证种子选择。}}{9}{figure.3}\protected@file@percent }
+\newlabel{fig:mechanism-zh}{{3}{9}{盲测种子上的机制检验。(a) 随着查询频率指数增大，\QDDD \ 相对估计器与容量匹配的写入轨迹获得更多 NRMSE 降幅；均匀查询时该优势接近零。(b) 小型自适应查询子空间可以恢复完整在线二阶矩的结果；最佳秩取决于任务，并且只使用验证种子选择。}{figure.3}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces 消融结果，以相对普通 Delta 的 NRMSE 降幅百分比表示。“随机”使用固定随机秩四子空间；“最佳低秩”仅为解释而报告盲测均值最好的候选秩，表\ref {tab:main-zh} 中的所有主要秩均只根据验证数据选择。}}{9}{table.3}\protected@file@percent }
+\newlabel{tab:ablation-zh}{{3}{9}{消融结果，以相对普通 Delta 的 NRMSE 降幅百分比表示。“随机”使用固定随机秩四子空间；“最佳低秩”仅为解释而报告盲测均值最好的候选秩，表\ref {tab:main-zh} 中的所有主要秩均只根据验证数据选择。}{table.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3}变化的需求}{9}{subsection.6.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {7}讨论}{9}{section.7}\protected@file@percent }
+\newlabel{sec:discussion-zh}{{7}{9}{讨论}{section.7}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.1}设计解释}{9}{subsection.7.1}\protected@file@percent }
+\citation{merity2016wikitext}
+\bibstyle{unsrt}
+\bibdata{references}
+\bibcite{widrow1960}{{1}{}{{}}{{}}}
+\bibcite{schlag2021}{{2}{}{{}}{{}}}
+\bibcite{merity2016wikitext}{{3}{}{{}}{{}}}
+\bibcite{schmidhuber1992}{{4}{}{{}}{{}}}
+\bibcite{ba2016}{{5}{}{{}}{{}}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.2}应用价值与部署范围}{10}{subsection.7.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {8}结论}{10}{section.8}\protected@file@percent }
+\newlabel{sec:conclusion-zh}{{8}{10}{结论}{section.8}{}}
+\bibcite{katharopoulos2020}{{6}{}{{}}{{}}}
+\bibcite{yang2024parallel}{{7}{}{{}}{{}}}
+\bibcite{yang2025gated}{{8}{}{{}}{{}}}
+\bibcite{hatamizadeh2026gdn2}{{9}{}{{}}{{}}}
+\bibcite{siems2025deltaproduct}{{10}{}{{}}{{}}}
+\bibcite{park2026qdelta}{{11}{}{{}}{{}}}
+\bibcite{gupta2026qed}{{12}{}{{}}{{}}}
+\bibcite{zhang2023h2o}{{13}{}{{}}{{}}}
+\bibcite{li2024snapkv}{{14}{}{{}}{{}}}
+\bibcite{oja1982}{{15}{}{{}}{{}}}
+\bibcite{huang2021oja}{{16}{}{{}}{{}}}
+\bibcite{zhu2025ojakv}{{17}{}{{}}{{}}}
+\bibcite{sugiyama2007}{{18}{}{{}}{{}}}
+\providecommand\NAT@force@numbers{}\NAT@force@numbers
+\gdef \@abspage@last{11}

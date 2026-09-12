@@ -1,0 +1,9 @@
+condition,method,seed,score,eta,beta,rank
+observed,plain,1,0.1800256222486496,0.1,0.0,4
+observed,plain,2,0.1856672763824463,0.1,0.0,4
+observed,write_trace,1,0.16830594837665558,0.1,1.0,2
+observed,write_trace,2,0.17338807880878448,0.1,1.0,2
+observed,dqd,1,0.16518153250217438,0.05,10.0,1
+observed,dqd,2,0.16333098709583282,0.05,10.0,1
+observed,full_query_trace,1,0.16476082801818848,0.05,10.0,4
+observed,full_query_trace,2,0.16361762583255768,0.05,10.0,4

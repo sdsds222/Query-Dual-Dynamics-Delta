@@ -1,0 +1,54 @@
+{
+  "status": "complete",
+  "created_utc": "2026-09-12T09:26:19.722053+00:00",
+  "command": "run_wikitext2_experiment.py --conditions observed --device cuda --quick --output _smoke_frequency",
+  "quick": true,
+  "python": "3.10.20 | packaged by Anaconda, Inc. | (main, Jun 11 2026, 15:13:20) [MSC v.1942 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "numpy": "2.0.1",
+  "device": "cuda",
+  "data": "C:\\Users\\13633\\Desktop\\BRC-FWP_LaTeX_Draft_v0.1\\BRC-FWP-paper\\BCDelta\\qddd\\reviewer_reproduction\\wikitext2_qd3.npz",
+  "data_sha256": "74da8c38ee72648d1a5ea52f631b662b62d52dd9a9ea30ede2b5bcc813b7e655",
+  "source_hashes": {
+    "dqd_core.py": "b7c0ec9d8c091ed7d0e4a6e01760bc22c1289c6f65ef7255ed776749b19a25d0",
+    "run_wikitext2_experiment.py": "2eee22cfc604eeccdf7111facb60fb1476f9e16597902cee076e066026485661",
+    "prepare_wikitext2.py": "e88d4a8e82965c145533f081a25381ac09caea9d6ab27089b433b16cc297d324"
+  },
+  "shape": {
+    "keys": [
+      3000,
+      256
+    ],
+    "values": [
+      3000,
+      64
+    ]
+  },
+  "conditions": [
+    "observed"
+  ],
+  "val_seeds": [
+    101
+  ],
+  "test_seeds": [
+    1,
+    2
+  ],
+  "etas": [
+    0.05,
+    0.1
+  ],
+  "betas": [
+    1.0,
+    10.0
+  ],
+  "passes": 1,
+  "query_every": 3,
+  "test_size": 300,
+  "eta_u": 0.05,
+  "lam": 0.999,
+  "clip": 1.9,
+  "torch": "2.5.1",
+  "gpu": "NVIDIA GeForce RTX 3070 Ti Laptop GPU",
+  "completed_utc": "2026-09-12T09:26:40.662589+00:00"
+}

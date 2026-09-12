@@ -1,0 +1,9 @@
+condition,method,seed,score,eta,beta,rank
+ordered,plain,1,0.1939433366060257,0.1,0.0,4
+ordered,plain,2,0.18773773312568665,0.1,0.0,4
+ordered,write_trace,1,0.18065741658210754,0.1,1.0,2
+ordered,write_trace,2,0.17414309084415436,0.1,1.0,2
+ordered,dqd,1,0.18294185400009155,0.05,10.0,4
+ordered,dqd,2,0.16545523703098297,0.05,10.0,4
+ordered,full_query_trace,1,0.1753607988357544,0.05,10.0,4
+ordered,full_query_trace,2,0.16322648525238037,0.05,10.0,4
