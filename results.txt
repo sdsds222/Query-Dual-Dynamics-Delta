@@ -1,0 +1,40 @@
+
+=== task A (2-D field) | queries: concentrated ===
+  plain delta                  0.7041     +0.0%
+  write-frequency gain         0.6956     +1.2%
+  sliding window r=4           0.5391    +23.4%
+  diagonal trace               0.6887     +2.2%
+  random projection r=32       0.5661    +19.6%
+  Q-Delta (per-step query)     0.7041     +0.0%
+  OURS (query trace r=4)       0.4824    +31.5%
+  oracle (true query dist.)    0.4709    +33.1%
+
+=== task A (2-D field) | queries: uniform ===
+  plain delta                  0.7180     +0.0%
+  write-frequency gain         0.7180     +0.0%
+  sliding window r=4           0.7180     +0.0%
+  diagonal trace               0.7180     +0.0%
+  random projection r=32       0.7180     +0.0%
+  Q-Delta (per-step query)     0.7180     +0.0%
+  OURS (query trace r=4)       0.7180     +0.0%
+  oracle (true query dist.)    0.7180     +0.0%
+
+=== task B (discrete recall) | queries: concentrated ===
+  plain delta                  0.8709     +0.0%
+  write-frequency gain         0.8709     +0.0%
+  sliding window r=4           0.7570    +13.1%
+  diagonal trace               0.8503     +2.4%
+  random projection r=32       0.7717    +11.4%
+  Q-Delta (per-step query)     0.8709     -0.0%
+  OURS (query trace r=4)       0.6929    +20.4%
+  oracle (true query dist.)    0.6699    +23.1%
+
+=== task B (discrete recall) | queries: uniform ===
+  plain delta                  0.9041     +0.0%
+  write-frequency gain         0.9041     +0.0%
+  sliding window r=4           0.9040     +0.0%
+  diagonal trace               0.9041     +0.0%
+  random projection r=32       0.9041     +0.0%
+  Q-Delta (per-step query)     0.9041     -0.0%
+  OURS (query trace r=4)       0.9041     +0.0%
+  oracle (true query dist.)    0.9041     +0.0%
