@@ -1,0 +1,318 @@
+%% BioMed_Central_Bib_Style_v1.01
+
+\begin{thebibliography}{17}
+% BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
+\ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
+\ifx \binits  \undefined \def \binits#1{#1}\fi
+\ifx \bauthor  \undefined \def \bauthor#1{#1}\fi
+\ifx \batitle  \undefined \def \batitle#1{#1}\fi
+\ifx \bjtitle  \undefined \def \bjtitle#1{#1}\fi
+\ifx \bvolume  \undefined \def \bvolume#1{\textbf{#1}}\fi
+\ifx \byear  \undefined \def \byear#1{#1}\fi
+\ifx \bissue  \undefined \def \bissue#1{#1}\fi
+\ifx \bfpage  \undefined \def \bfpage#1{#1}\fi
+\ifx \blpage  \undefined \def \blpage #1{#1}\fi
+\ifx \burl  \undefined \def \burl#1{\textsf{#1}}\fi
+\ifx \doiurl  \undefined \def \doiurl#1{\url{https://doi.org/#1}}\fi
+\ifx \betal  \undefined \def \betal{\textit{et al.}}\fi
+\ifx \binstitute  \undefined \def \binstitute#1{#1}\fi
+\ifx \binstitutionaled  \undefined \def \binstitutionaled#1{#1}\fi
+\ifx \bctitle  \undefined \def \bctitle#1{#1}\fi
+\ifx \beditor  \undefined \def \beditor#1{#1}\fi
+\ifx \bpublisher  \undefined \def \bpublisher#1{#1}\fi
+\ifx \bbtitle  \undefined \def \bbtitle#1{#1}\fi
+\ifx \bedition  \undefined \def \bedition#1{#1}\fi
+\ifx \bseriesno  \undefined \def \bseriesno#1{#1}\fi
+\ifx \blocation  \undefined \def \blocation#1{#1}\fi
+\ifx \bsertitle  \undefined \def \bsertitle#1{#1}\fi
+\ifx \bsnm \undefined \def \bsnm#1{#1}\fi
+\ifx \bsuffix \undefined \def \bsuffix#1{#1}\fi
+\ifx \bparticle \undefined \def \bparticle#1{#1}\fi
+\ifx \barticle \undefined \def \barticle#1{#1}\fi
+\bibcommenthead
+\ifx \bconfdate \undefined \def \bconfdate #1{#1}\fi
+\ifx \botherref \undefined \def \botherref #1{#1}\fi
+\ifx \url \undefined \def \url#1{\textsf{#1}}\fi
+\ifx \bchapter \undefined \def \bchapter#1{#1}\fi
+\ifx \bbook \undefined \def \bbook#1{#1}\fi
+\ifx \bcomment \undefined \def \bcomment#1{#1}\fi
+\ifx \oauthor \undefined \def \oauthor#1{#1}\fi
+\ifx \citeauthoryear \undefined \def \citeauthoryear#1{#1}\fi
+\ifx \endbibitem  \undefined \def \endbibitem {}\fi
+\ifx \bconflocation  \undefined \def \bconflocation#1{#1}\fi
+\ifx \arxivurl  \undefined \def \arxivurl#1{\textsf{#1}}\fi
+\csname PreBibitemsHook\endcsname
+
+%%% 1
+\bibitem[\protect\citeauthoryear{Ba et~al.}{2016}]{ba2016}
+\begin{bchapter}
+\bauthor{\bsnm{Ba}, \binits{J.}},
+\bauthor{\bsnm{Hinton}, \binits{G.E.}},
+\bauthor{\bsnm{Mnih}, \binits{V.}},
+\bauthor{\bsnm{Leibo}, \binits{J.Z.}},
+\bauthor{\bsnm{Ionescu}, \binits{C.}}:
+\bctitle{Using fast weights to attend to the recent past}.
+In: \bbtitle{Advances in Neural Information Processing Systems},
+vol. \bseriesno{29},
+pp. \bfpage{4331}--\blpage{4339}
+(\byear{2016}).
+\burl{https://proceedings.neurips.cc/paper/2016/hash/9f44e956e3a2b7b5598c625fcc802c36-Abstract.html}
+\end{bchapter}
+\endbibitem
+
+%%% 2
+\bibitem[\protect\citeauthoryear{Huang et~al.}{2021}]{huang2021oja}
+\begin{bchapter}
+\bauthor{\bsnm{Huang}, \binits{D.}},
+\bauthor{\bsnm{Niles-Weed}, \binits{J.}},
+\bauthor{\bsnm{Ward}, \binits{R.}}:
+\bctitle{Streaming $k$-{PCA}: Efficient guarantees for {Oja}'s algorithm,
+  beyond rank-one updates}.
+In: \bbtitle{Proceedings of Thirty Fourth Conference on Learning Theory}.
+\bsertitle{Proceedings of Machine Learning Research},
+vol. \bseriesno{134},
+pp. \bfpage{2463}--\blpage{2498}
+(\byear{2021}).
+\burl{https://proceedings.mlr.press/v134/huang21a.html}
+\end{bchapter}
+\endbibitem
+
+%%% 3
+\bibitem[\protect\citeauthoryear{Katharopoulos
+  et~al.}{2020}]{katharopoulos2020}
+\begin{bchapter}
+\bauthor{\bsnm{Katharopoulos}, \binits{A.}},
+\bauthor{\bsnm{Vyas}, \binits{A.}},
+\bauthor{\bsnm{Pappas}, \binits{N.}},
+\bauthor{\bsnm{Fleuret}, \binits{F.}}:
+\bctitle{Transformers are {RNN}s: Fast autoregressive transformers with linear
+  attention}.
+In: \bbtitle{Proceedings of the 37th International Conference on Machine
+  Learning}.
+\bsertitle{Proceedings of Machine Learning Research},
+vol. \bseriesno{119},
+pp. \bfpage{5156}--\blpage{5165}
+(\byear{2020}).
+\burl{https://proceedings.mlr.press/v119/katharopoulos20a.html}
+\end{bchapter}
+\endbibitem
+
+%%% 4
+\bibitem[\protect\citeauthoryear{Li et~al.}{2024}]{li2024snapkv}
+\begin{bchapter}
+\bauthor{\bsnm{Li}, \binits{Y.}},
+\bauthor{\bsnm{Huang}, \binits{Y.}},
+\bauthor{\bsnm{Yang}, \binits{B.}},
+\bauthor{\bsnm{Venkitesh}, \binits{B.}},
+\bauthor{\bsnm{Locatelli}, \binits{A.}},
+\bauthor{\bsnm{Ye}, \binits{H.}},
+\bauthor{\bsnm{Cai}, \binits{T.}},
+\bauthor{\bsnm{Lewis}, \binits{P.}},
+\bauthor{\bsnm{Chen}, \binits{D.}}:
+\bctitle{{SnapKV}: {LLM} knows what you are looking for before generation}.
+In: \bbtitle{Advances in Neural Information Processing Systems},
+vol. \bseriesno{37}
+(\byear{2024}).
+\doiurl{10.52202/079017-0722}
+\end{bchapter}
+\endbibitem
+
+%%% 5
+\bibitem[\protect\citeauthoryear{Merity et~al.}{2017}]{merity2016wikitext}
+\begin{bchapter}
+\bauthor{\bsnm{Merity}, \binits{S.}},
+\bauthor{\bsnm{Xiong}, \binits{C.}},
+\bauthor{\bsnm{Bradbury}, \binits{J.}},
+\bauthor{\bsnm{Socher}, \binits{R.}}:
+\bctitle{Pointer sentinel mixture models}.
+In: \bbtitle{The Fifth International Conference on Learning Representations}
+(\byear{2017}).
+\burl{https://openreview.net/forum?id=Byj72udxe}
+\end{bchapter}
+\endbibitem
+
+%%% 6
+\bibitem[\protect\citeauthoryear{Oja}{1982}]{oja1982}
+\begin{barticle}
+\bauthor{\bsnm{Oja}, \binits{E.}}:
+\batitle{Simplified neuron model as a principal component analyzer}.
+\bjtitle{Journal of Mathematical Biology}
+\bvolume{15},
+\bfpage{267}--\blpage{273}
+(\byear{1982})
+\doiurl{10.1007/BF00275687}
+\end{barticle}
+\endbibitem
+
+%%% 7
+\bibitem[\protect\citeauthoryear{Park et~al.}{2026}]{park2026qdelta}
+\begin{bchapter}
+\bauthor{\bsnm{Park}, \binits{S.}},
+\bauthor{\bsnm{Kim}, \binits{S.}},
+\bauthor{\bsnm{Park}, \binits{N.}}:
+\bctitle{{Q-Delta}: Beyond key-value associative state evolution}.
+In: \bbtitle{Proceedings of the 43rd International Conference on Machine
+  Learning}
+(\byear{2026}).
+\burl{https://icml.cc/Downloads/2026}
+\end{bchapter}
+\endbibitem
+
+%%% 8
+\bibitem[\protect\citeauthoryear{Schmidhuber}{1992}]{schmidhuber1992}
+\begin{barticle}
+\bauthor{\bsnm{Schmidhuber}, \binits{J.}}:
+\batitle{Learning to control fast-weight memories: An alternative to dynamic
+  recurrent networks}.
+\bjtitle{Neural Computation}
+\bvolume{4}(\bissue{1}),
+\bfpage{131}--\blpage{139}
+(\byear{1992})
+\doiurl{10.1162/neco.1992.4.1.131}
+\end{barticle}
+\endbibitem
+
+%%% 9
+\bibitem[\protect\citeauthoryear{Siems et~al.}{2025}]{siems2025deltaproduct}
+\begin{bchapter}
+\bauthor{\bsnm{Siems}, \binits{J.}},
+\bauthor{\bsnm{Carstensen}, \binits{T.}},
+\bauthor{\bsnm{Zela}, \binits{A.}},
+\bauthor{\bsnm{Hutter}, \binits{F.}},
+\bauthor{\bsnm{Pontil}, \binits{M.}},
+\bauthor{\bsnm{Grazzi}, \binits{R.}}:
+\bctitle{{DeltaProduct}: Improving state-tracking in linear {RNN}s via
+  householder products}.
+In: \bbtitle{Advances in Neural Information Processing Systems},
+vol. \bseriesno{38}
+(\byear{2025}).
+\doiurl{10.52202/085713-5141}
+\end{bchapter}
+\endbibitem
+
+%%% 10
+\bibitem[\protect\citeauthoryear{Schlag et~al.}{2021}]{schlag2021}
+\begin{bchapter}
+\bauthor{\bsnm{Schlag}, \binits{I.}},
+\bauthor{\bsnm{Irie}, \binits{K.}},
+\bauthor{\bsnm{Schmidhuber}, \binits{J.}}:
+\bctitle{Linear transformers are secretly fast weight programmers}.
+In: \bbtitle{Proceedings of the 38th International Conference on Machine
+  Learning}.
+\bsertitle{Proceedings of Machine Learning Research},
+vol. \bseriesno{139},
+pp. \bfpage{9355}--\blpage{9366}
+(\byear{2021}).
+\burl{https://proceedings.mlr.press/v139/schlag21a.html}
+\end{bchapter}
+\endbibitem
+
+%%% 11
+\bibitem[\protect\citeauthoryear{Sugiyama et~al.}{2007}]{sugiyama2007}
+\begin{bchapter}
+\bauthor{\bsnm{Sugiyama}, \binits{M.}},
+\bauthor{\bsnm{Nakajima}, \binits{S.}},
+\bauthor{\bsnm{Kashima}, \binits{H.}},
+\bauthor{\bsnm{Buenau}, \binits{P.V.}},
+\bauthor{\bsnm{Kawanabe}, \binits{M.}}:
+\bctitle{Direct importance estimation with model selection and its application
+  to covariate shift adaptation}.
+In: \bbtitle{Advances in Neural Information Processing Systems},
+vol. \bseriesno{20}
+(\byear{2007})
+\end{bchapter}
+\endbibitem
+
+%%% 12
+\bibitem[\protect\citeauthoryear{Widrow and Marcian E.~Hoff}{1960}]{widrow1960}
+\begin{bchapter}
+\bauthor{\bsnm{Widrow}, \binits{B.}},
+\bauthor{\bsnm{Marcian E.~Hoff}, \binits{J.}}:
+\bctitle{Adaptive switching circuits}.
+In: \bbtitle{IRE WESCON Convention Record},
+vol. \bseriesno{4},
+pp. \bfpage{96}--\blpage{104}
+(\byear{1960}).
+\burl{https://isl.stanford.edu/\texttildelow
+  widrow/papers/c1960adaptiveswitching.pdf}
+\end{bchapter}
+\endbibitem
+
+%%% 13
+\bibitem[\protect\citeauthoryear{Yang et~al.}{2025}]{yang2025gated}
+\begin{bchapter}
+\bauthor{\bsnm{Yang}, \binits{S.}},
+\bauthor{\bsnm{Kautz}, \binits{J.}},
+\bauthor{\bsnm{Hatamizadeh}, \binits{A.}}:
+\bctitle{Gated delta networks: Improving {Mamba2} with delta rule}.
+In: \bbtitle{The Thirteenth International Conference on Learning
+  Representations}
+(\byear{2025}).
+\burl{https://openreview.net/forum?id=r8H7xhYPwz}
+\end{bchapter}
+\endbibitem
+
+%%% 14
+\bibitem[\protect\citeauthoryear{Yang et~al.}{2024}]{yang2024parallel}
+\begin{bchapter}
+\bauthor{\bsnm{Yang}, \binits{S.}},
+\bauthor{\bsnm{Wang}, \binits{B.}},
+\bauthor{\bsnm{Zhang}, \binits{Y.}},
+\bauthor{\bsnm{Shen}, \binits{Y.}},
+\bauthor{\bsnm{Kim}, \binits{Y.}}:
+\bctitle{Parallelizing linear transformers with the delta rule over sequence
+  length}.
+In: \bbtitle{Advances in Neural Information Processing Systems},
+vol. \bseriesno{37}
+(\byear{2024}).
+\doiurl{10.52202/079017-3668}
+\end{bchapter}
+\endbibitem
+
+%%% 15
+\bibitem[\protect\citeauthoryear{Zhang et~al.}{2023}]{zhang2023h2o}
+\begin{bchapter}
+\bauthor{\bsnm{Zhang}, \binits{Z.}},
+\bauthor{\bsnm{Sheng}, \binits{Y.}},
+\bauthor{\bsnm{Zhou}, \binits{T.}},
+\bauthor{\bsnm{Chen}, \binits{T.}},
+\bauthor{\bsnm{Zheng}, \binits{L.}},
+\bauthor{\bsnm{Cai}, \binits{R.}},
+\bauthor{\bsnm{Song}, \binits{Z.}},
+\bauthor{\bsnm{Tian}, \binits{Y.}},
+\bauthor{\bsnm{R{\'e}}, \binits{C.}},
+\bauthor{\bsnm{Barrett}, \binits{C.}},
+\bauthor{\bsnm{Wang}, \binits{Z.}},
+\bauthor{\bsnm{Chen}, \binits{B.}}:
+\bctitle{{$H_2O$}: Heavy-hitter oracle for efficient generative inference of
+  large language models}.
+In: \bbtitle{Advances in Neural Information Processing Systems},
+vol. \bseriesno{36}
+(\byear{2023}).
+\doiurl{10.52202/075280-1506}
+\end{bchapter}
+\endbibitem
+
+%%% 16
+\bibitem[\protect\citeauthoryear{Zhu et~al.}{2026}]{zhu2025ojakv}
+\begin{bchapter}
+\bauthor{\bsnm{Zhu}, \binits{Y.}},
+\bauthor{\bsnm{Yang}, \binits{D.H.}},
+\bauthor{\bsnm{Amiri}, \binits{M.M.}},
+\bauthor{\bsnm{Murugesan}, \binits{K.}},
+\bauthor{\bsnm{Pedapati}, \binits{T.}},
+\bauthor{\bsnm{Chen}, \binits{P.-Y.}}:
+\bctitle{{OjaKV}: Context-aware online low-rank {KV} cache compression with
+  {Oja}'s rule}.
+In: \bbtitle{Findings of the Association for Computational Linguistics: ACL
+  2026},
+pp. \bfpage{10161}--\blpage{10178}.
+\bpublisher{Association for Computational Linguistics},
+\blocation{San Diego, California, United States}
+(\byear{2026}).
+\doiurl{10.18653/v1/2026.findings-acl.494} .
+\burl{https://aclanthology.org/2026.findings-acl.494/}
+\end{bchapter}
+\endbibitem
+
+\end{thebibliography}

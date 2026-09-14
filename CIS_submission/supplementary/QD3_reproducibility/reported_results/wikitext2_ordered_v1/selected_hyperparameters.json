@@ -1,0 +1,62 @@
+{
+  "ordered": {
+    "plain": {
+      "eta": 0.1,
+      "beta": 0.0,
+      "rank": 4,
+      "validation_mean": 0.16575300507247448,
+      "grid_size": 3
+    },
+    "write_trace": {
+      "eta": 0.05,
+      "beta": 3.0,
+      "rank": 2,
+      "validation_mean": 0.16438388265669346,
+      "grid_size": 36
+    },
+    "dqd": {
+      "eta": 0.02,
+      "beta": 10.0,
+      "rank": 1,
+      "validation_mean": 0.16209758259356022,
+      "grid_size": 36
+    },
+    "full_query_trace": {
+      "eta": 0.02,
+      "beta": 10.0,
+      "rank": 4,
+      "validation_mean": 0.16211616806685925,
+      "grid_size": 12
+    }
+  },
+  "shuffled": {
+    "plain": {
+      "eta": 0.1,
+      "beta": 0.0,
+      "rank": 4,
+      "validation_mean": 0.16575300507247448,
+      "grid_size": 3
+    },
+    "write_trace": {
+      "eta": 0.05,
+      "beta": 3.0,
+      "rank": 2,
+      "validation_mean": 0.16438388265669346,
+      "grid_size": 36
+    },
+    "dqd": {
+      "eta": 0.02,
+      "beta": 10.0,
+      "rank": 1,
+      "validation_mean": 0.1619965173304081,
+      "grid_size": 36
+    },
+    "full_query_trace": {
+      "eta": 0.02,
+      "beta": 10.0,
+      "rank": 4,
+      "validation_mean": 0.16208727844059467,
+      "grid_size": 12
+    }
+  }
+}

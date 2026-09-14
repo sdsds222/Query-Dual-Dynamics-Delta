@@ -1,0 +1,56 @@
+{
+  "synthetic_2d": {
+    "concentrated": {
+      "eta": 0.02,
+      "beta": 30.0,
+      "per_trace_rank": 4,
+      "total_trace_rank": 8,
+      "validation_mean": 0.5663427785038948,
+      "grid_size": 75
+    },
+    "uniform": {
+      "eta": 0.05,
+      "beta": 1.0,
+      "per_trace_rank": 4,
+      "total_trace_rank": 8,
+      "validation_mean": 0.7218458577990532,
+      "grid_size": 75
+    }
+  },
+  "word": {
+    "observed": {
+      "eta": 0.02,
+      "beta": 10.0,
+      "per_trace_rank": 1,
+      "total_trace_rank": 2,
+      "validation_mean": 0.7083224058151245,
+      "grid_size": 75
+    },
+    "uniform": {
+      "eta": 0.02,
+      "beta": 3.0,
+      "per_trace_rank": 4,
+      "total_trace_rank": 8,
+      "validation_mean": 0.800983116030693,
+      "grid_size": 75
+    }
+  },
+  "module": {
+    "observed": {
+      "eta": 0.02,
+      "beta": 10.0,
+      "per_trace_rank": 4,
+      "total_trace_rank": 8,
+      "validation_mean": 0.8171153143048286,
+      "grid_size": 75
+    },
+    "uniform": {
+      "eta": 0.02,
+      "beta": 1.0,
+      "per_trace_rank": 1,
+      "total_trace_rank": 2,
+      "validation_mean": 0.7309243306517601,
+      "grid_size": 75
+    }
+  }
+}

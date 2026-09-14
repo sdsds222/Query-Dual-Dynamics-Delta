@@ -1,0 +1,100 @@
+{
+  "status": "complete",
+  "created_utc": "2026-09-12T04:02:06.803272+00:00",
+  "suite": "main",
+  "quick": false,
+  "command": "run_dqd_experiments.py --suite main --device cuda --val-seeds 8 --test-seeds 16 --output results/main_blind_v1",
+  "python": "3.10.20 | packaged by Anaconda, Inc. | (main, Jun 11 2026, 15:13:20) [MSC v.1942 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "numpy": "2.0.1",
+  "torch": "2.5.1",
+  "device": "cuda",
+  "val_seeds": [
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008
+  ],
+  "test_seeds": [
+    10001,
+    10002,
+    10003,
+    10004,
+    10005,
+    10006,
+    10007,
+    10008,
+    10009,
+    10010,
+    10011,
+    10012,
+    10013,
+    10014,
+    10015,
+    10016
+  ],
+  "etas": [
+    0.02,
+    0.05,
+    0.1,
+    0.2,
+    0.4
+  ],
+  "betas": [
+    1.0,
+    3.0,
+    10.0,
+    30.0,
+    100.0
+  ],
+  "query_every": 3,
+  "eta_u": 0.05,
+  "lam": 0.999,
+  "clip": 1.9,
+  "stream_length": 3000,
+  "test_size": 5000,
+  "reference_size": 10000,
+  "files": {
+    "dqd_core.py": "87884dc009fd104ad1893d9de48231fcf73caa9b1b817e22d9779e8d7e083385",
+    "run_dqd_experiments.py": "7cffc8393a2d986820b486e1cf9f86748908f960e7b2899dd130f5ea9f4abf58",
+    "word.npz": "dcf83077a7abd574b4c7b0cb88821f282fe16065d873517a1e1b920ed33a4186",
+    "module.npz": "c1d5681f16ea7b64be59c0e6ffef406dfb85c9e259fdcee7d98df376f026d8f8"
+  },
+  "datasets": {
+    "word": {
+      "keys": [
+        3000,
+        128
+      ],
+      "values": [
+        3000,
+        64
+      ],
+      "frequency": [
+        3000
+      ],
+      "passes": 3
+    },
+    "module": {
+      "keys": [
+        578,
+        24
+      ],
+      "values": [
+        578,
+        48
+      ],
+      "frequency": [
+        578
+      ],
+      "passes": 6
+    }
+  },
+  "gpu": "NVIDIA GeForce RTX 3070 Ti Laptop GPU",
+  "completed_utc": "2026-09-12T04:28:53.431613+00:00",
+  "conditions_filter": []
+}

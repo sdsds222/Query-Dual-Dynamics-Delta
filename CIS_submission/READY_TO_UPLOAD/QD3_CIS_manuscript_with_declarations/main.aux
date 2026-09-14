@@ -1,0 +1,101 @@
+\relax 
+\bibstyle{sn-mathphys-num}
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\citation{widrow1960,schlag2021}
+\Newlabel{1}{1}
+\citation{merity2016wikitext}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{2}{section.1}\protected@file@percent }
+\newlabel{sec:intro}{{1}{2}{Introduction}{section.1}{}}
+\citation{schmidhuber1992,ba2016}
+\citation{katharopoulos2020}
+\citation{schlag2021}
+\citation{yang2024parallel}
+\citation{yang2025gated}
+\citation{siems2025deltaproduct}
+\citation{park2026qdelta}
+\citation{zhang2023h2o}
+\citation{li2024snapkv}
+\citation{oja1982}
+\citation{huang2021oja}
+\citation{zhu2025ojakv}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Related work}{3}{section.2}\protected@file@percent }
+\newlabel{sec:related}{{2}{3}{Related work}{section.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Fast weights and Delta-based linear attention}{3}{subsection.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Access-aware retention and online subspaces}{3}{subsection.2.2}\protected@file@percent }
+\citation{sugiyama2007}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Position of \ensuremath  {\mathrm  {QD}^{3}}\ among memory-management mechanisms. ``Current'' denotes information at the present sequence position; ``history'' denotes a separately accumulated statistic. Citations and fuller distinctions are given in Sect.~\ref {sec:related}.}}{4}{table.1}\protected@file@percent }
+\newlabel{tab:related}{{1}{4}{Position of \QDDD \ among memory-management mechanisms. ``Current'' denotes information at the present sequence position; ``history'' denotes a separately accumulated statistic. Citations and fuller distinctions are given in Sect.~\ref {sec:related}}{table.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Problem formulation}{4}{section.3}\protected@file@percent }
+\newlabel{sec:problem}{{3}{4}{Problem formulation}{section.3}{}}
+\newlabel{eq:read}{{1}{4}{Problem formulation}{equation.1}{}}
+\newlabel{eq:residual}{{2}{4}{Problem formulation}{equation.2}{}}
+\newlabel{eq:plain-delta}{{3}{4}{Problem formulation}{equation.3}{}}
+\newlabel{eq:query-risk}{{4}{5}{Problem formulation}{equation.4}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Query Dual Dynamics Delta}{5}{section.4}\protected@file@percent }
+\newlabel{sec:method}{{4}{5}{Query Dual Dynamics Delta}{section.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}The full query heat}{5}{subsection.4.1}\protected@file@percent }
+\newlabel{eq:full-trace}{{5}{5}{The full query heat}{equation.5}{}}
+\newlabel{eq:heat-identity}{{6}{5}{The full query heat}{equation.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Low-rank query dynamics}{5}{subsection.4.2}\protected@file@percent }
+\newlabel{eq:projection}{{7}{5}{Low-rank query dynamics}{equation.7}{}}
+\newlabel{eq:oja}{{8}{5}{Low-rank query dynamics}{equation.8}{}}
+\newlabel{eq:energy}{{9}{6}{Low-rank query dynamics}{equation.9}{}}
+\newlabel{eq:lowrank-heat}{{10}{6}{Low-rank query dynamics}{equation.10}{}}
+\newlabel{eq:normalization}{{11}{6}{Low-rank query dynamics}{equation.11}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Read-driven rate and memory update}{6}{subsection.4.3}\protected@file@percent }
+\newlabel{eq:rate}{{12}{6}{Read-driven rate and memory update}{equation.12}{}}
+\newlabel{eq:qddd}{{13}{6}{Read-driven rate and memory update}{equation.13}{}}
+\newlabel{prop:stable}{{1}{6}{Written-address non-expansion}{proposition.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Query Dual Dynamics Delta. (a) Query history determines the clipped rate of later residual Delta writes. (b) Query history sets the per-write rate $\setbox \z@ \hbox {\mathsurround \z@ $\textstyle \eta $}\mathaccent "0365{\eta }(\mathbf  {k})$, whereas write exposure $p_w(\mathbf  {k})$ determines how often it is applied; their product shows effective update opportunity. The exact update also contains the residual. Maps are schematic, not additional state.}}{7}{figure.1}\protected@file@percent }
+\newlabel{fig:architecture}{{1}{7}{Query Dual Dynamics Delta. (a) Query history determines the clipped rate of later residual Delta writes. (b) Query history sets the per-write rate $\widetilde \eta (\mathbf {k})$, whereas write exposure $p_w(\mathbf {k})$ determines how often it is applied; their product shows effective update opportunity. The exact update also contains the residual. Maps are schematic, not additional state}{figure.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}State and computational cost}{7}{subsection.4.4}\protected@file@percent }
+\citation{merity2016wikitext}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Experimental design}{8}{section.5}\protected@file@percent }
+\newlabel{sec:experiments}{{5}{8}{Experimental design}{section.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Tasks and evaluation metric}{8}{subsection.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.1}Synthetic spatial field}{8}{subsubsection.5.1.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.2}Real-data-derived controlled workloads}{8}{subsubsection.5.1.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.3}WikiText-2 held-out token sequence}{8}{subsubsection.5.1.3}\protected@file@percent }
+\newlabel{eq:nrmse}{{16}{9}{WikiText-2 held-out token sequence}{equation.16}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Baselines and controls}{9}{subsection.5.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Selection, pairing, and implementation checks}{9}{subsection.5.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6}Results}{10}{section.6}\protected@file@percent }
+\newlabel{sec:results}{{6}{10}{Results}{section.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}Concentrated and held-out workloads}{10}{subsection.6.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Blind-test NRMSE on non-uniform workloads, reported as mean (sample standard deviation) over 16 paired seeds. Gain is the relative reduction of \ensuremath  {\mathrm  {QD}^{3}}\ from Plain Delta. Paired \ensuremath  {\mathrm  {QD}^{3}}--Write Trace confidence intervals are reported in the surrounding text.}}{11}{table.2}\protected@file@percent }
+\newlabel{tab:main}{{2}{11}{Blind-test NRMSE on non-uniform workloads, reported as mean (sample standard deviation) over 16 paired seeds. Gain is the relative reduction of \QDDD \ from Plain Delta. Paired \QDDD --Write Trace confidence intervals are reported in the surrounding text}{table.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Blind-test NRMSE reduction relative to Plain Delta (mean and paired 95\% confidence interval; 16 seeds; each panel has its own labeled vertical scale). On the controlled spatial field, query-derived traces improve concentrated-query recall while the matched write trace does not; their distinction disappears under uniform queries. On WikiText-2, contiguous held-out queries give \ensuremath  {\mathrm  {QD}^{3}}\ a 2.62\% reduction, whereas \ensuremath  {\mathrm  {QD}^{3}}\ and Write Trace are nearly identical under uniform queries. Lower NRMSE is better.}}{11}{figure.2}\protected@file@percent }
+\newlabel{fig:main-results}{{2}{11}{Blind-test NRMSE reduction relative to Plain Delta (mean and paired 95\% confidence interval; 16 seeds; each panel has its own labeled vertical scale). On the controlled spatial field, query-derived traces improve concentrated-query recall while the matched write trace does not; their distinction disappears under uniform queries. On WikiText-2, contiguous held-out queries give \QDDD \ a 2.62\% reduction, whereas \QDDD \ and Write Trace are nearly identical under uniform queries. Lower NRMSE is better}{figure.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}Where the gain comes from}{11}{subsection.6.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Mechanism tests on blind seeds. (a) The additional NRMSE reduction of \ensuremath  {\mathrm  {QD}^{3}}\ over the estimator- and capacity-matched Write Trace grows with the query-frequency exponent and begins near zero for uniform queries. (b) A small adaptive query subspace recovers the full online second-moment result; optimal rank is task dependent and selected only on validation seeds.}}{12}{figure.3}\protected@file@percent }
+\newlabel{fig:mechanism}{{3}{12}{Mechanism tests on blind seeds. (a) The additional NRMSE reduction of \QDDD \ over the estimator- and capacity-matched Write Trace grows with the query-frequency exponent and begins near zero for uniform queries. (b) A small adaptive query subspace recovers the full online second-moment result; optimal rank is task dependent and selected only on validation seeds}{figure.3}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Ablation results as percentage NRMSE reduction from Plain Delta. ``Random'' is a fixed random rank-four subspace; ``Dual'' is the state-matched query--write control; ``validation-selected \ensuremath  {\mathrm  {QD}^{3}}'' repeats the headline \ensuremath  {\mathrm  {QD}^{3}}\ configuration from Table~\ref {tab:main}, with hyperparameters chosen only on validation data.}}{12}{table.3}\protected@file@percent }
+\newlabel{tab:ablation}{{3}{12}{Ablation results as percentage NRMSE reduction from Plain Delta. ``Random'' is a fixed random rank-four subspace; ``Dual'' is the state-matched query--write control; ``validation-selected \QDDD '' repeats the headline \QDDD \ configuration from Table~\ref {tab:main}, with hyperparameters chosen only on validation data}{table.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3}Changing demand}{13}{subsection.6.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {7}Discussion}{13}{section.7}\protected@file@percent }
+\newlabel{sec:discussion}{{7}{13}{Discussion}{section.7}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.1}Design interpretation}{13}{subsection.7.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.2}Application value and deployment scope}{13}{subsection.7.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {8}Conclusion}{13}{section.8}\protected@file@percent }
+\newlabel{sec:conclusion}{{8}{13}{Conclusion}{section.8}{}}
+\citation{*}
+\bibdata{references}
+\bibcite{ba2016}{{1}{2016}{{Ba et~al.}}{{}}}
+\bibcite{huang2021oja}{{2}{2021}{{Huang et~al.}}{{}}}
+\bibcite{katharopoulos2020}{{3}{2020}{{Katharopoulos et~al.}}{{}}}
+\bibcite{li2024snapkv}{{4}{2024}{{Li et~al.}}{{}}}
+\bibcite{merity2016wikitext}{{5}{2017}{{Merity et~al.}}{{}}}
+\bibcite{oja1982}{{6}{1982}{{Oja}}{{}}}
+\bibcite{park2026qdelta}{{7}{2026}{{Park et~al.}}{{}}}
+\bibcite{schmidhuber1992}{{8}{1992}{{Schmidhuber}}{{}}}
+\bibcite{siems2025deltaproduct}{{9}{2025}{{Siems et~al.}}{{}}}
+\bibcite{schlag2021}{{10}{2021}{{Schlag et~al.}}{{}}}
+\bibcite{sugiyama2007}{{11}{2007}{{Sugiyama et~al.}}{{}}}
+\bibcite{widrow1960}{{12}{1960}{{Widrow and Marcian E.~Hoff}}{{}}}
+\bibcite{yang2025gated}{{13}{2025}{{Yang et~al.}}{{}}}
+\bibcite{yang2024parallel}{{14}{2024}{{Yang et~al.}}{{}}}
+\bibcite{zhang2023h2o}{{15}{2023}{{Zhang et~al.}}{{}}}
+\bibcite{zhu2025ojakv}{{16}{2026}{{Zhu et~al.}}{{}}}
+\gdef \@abspage@last{16}
